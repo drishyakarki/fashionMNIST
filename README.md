@@ -8,6 +8,8 @@ If you want to run this project, you can follow the following steps:
 ```
 git clone https://github.com/drishyakarki/fashionMNIST.git
 cd fashionMNIST
+python -m venv env
+source env/bin/activate
 pip install -r requirements.txt
 python app.py
  ```
